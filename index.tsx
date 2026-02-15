@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { GarageProvider } from './context/GarageContext';
+import './index.css';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
